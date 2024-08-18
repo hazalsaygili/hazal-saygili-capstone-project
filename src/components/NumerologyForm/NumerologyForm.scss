@@ -1,0 +1,54 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.numerology-form {
+  @include center-content;
+  flex-direction: column;
+  background-image: linear-gradient(
+    rgba(165, 70, 209, 0.5),
+    rgba(165, 70, 209, 0.5)
+  ),
+  url(../../assets/Backgrounds/numerology-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 40rem;
+
+  .title {
+    font-size: 2rem;
+    color: $neon-pink;
+    margin-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    input {
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 0.1rem solid $neon-pink;
+      background: transparent;
+      color: white;
+      font-size: 1rem;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      @include button-style($neon-pink, white, $neon-pink);
+    }
+
+    .warning-message {
+      color: red;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+  }
+}

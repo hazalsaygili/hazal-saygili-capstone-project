@@ -1,0 +1,18 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.footer {
+  background-color: $space-blue;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .logo {
+    color: $neon-pink;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+}

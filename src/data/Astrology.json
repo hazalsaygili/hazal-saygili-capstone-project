@@ -1,0 +1,86 @@
+[
+    {
+    "name": "Aquarius",
+    "element": "Air",
+    "rulingplanet": "Uranus and Saturn",
+    "traits": "optimistic, humanitarian",
+    "description": "Uranus, known as the planet of liberation and freedom, rules Aquarius alongside Saturn, the planet of strength. While these energies certainly may seem very different, this blend is what gives Aquarians their eccentric and individualistic demeanor. Both planets are also very intellectual rather than emotional, which is why Aquarians are often deeply involved in the world of thoughts, ideas and philosophies. They are able to take their revolutionary or unique ideas and find a way to structure them for themselves and the world."
+    },
+    {
+    "name": "Pisces",
+    "element": "Water",
+    "rulingplanet": "Neptune and Jupiter",
+    "traits": "sensitive, empathetic, intuitive",
+    "description": "Mystical Neptune and lucky Jupiter are the co-rulers of sweet and sensitive Pisces. That is what gives this zodiac sign a dreamy and imaginative nature. Neptune and Jupiter are also classified as highly spiritual planets, further enhancing Pisceans’ connection to dreams, empathy and creative abilities. Both planets work in tandem to bring optimism, hope and fantasy to Pisces, as well."
+    },
+    {
+    "name": "Aries",
+    "element": "Fire",
+    "rulingplanet": "Mars",
+    "traits": "bold and ambitious",
+    "description": "Fiery Mars gives Aries their intense and passionate energy. This is what propels them to be the leaders of the pack. As a planet of determination and energy, this gives Aries the courage to be a warrior in life. Mars has active and impulsive energy, which fuels Aries to be an unstoppable force and create the life that they envision."
+    },
+    {
+    "name": "Taurus",
+    "element": "Earth",
+    "rulingplanet": "Venus",
+    "traits": "luxurious and stubborn",
+    "description": "Luxurious Venus infuses Taureans with sensual, romantic and sensitive energy. As the planet of love, beauty and profit, she aids Taurus in being earthy and lucky in money and love. Her sweet aura lets these people enjoy decadence and the full expanse of the senses. She empowers Taurus to pursue pleasure and harmony above all."
+    },
+    {
+    "name": "Gemini",
+    "element": "Air",
+    "rulingplanet": "Mercury",
+    "traits": "spontaneous, multifaceted and playful",
+    "description": "Witty and versatile Mercury, the planet of communication, brings Geminis their ability to open their minds and absorb and process information more quickly than any other zodiac sign. This infuses them with their curious, inquisitive and intellectual nature. As the fastest moving planet in our solar system, Geminis are led to be always active and connecting with new people and experiences."
+    },
+    {
+    "name": "Cancer",
+    "element": "Water",
+    "rulingplanet": "Moon",
+    "traits": "emotional and intuitive",
+    "description": "As the luminary of emotions and domesticity, the Moon holds special rulership over the zodiac sign of Cancer. Just as we become more intense by the phase of the Moon and more intuitive at night, Cancers can experience heightened emotional and empathic abilities. They tend to be especially nurturing, gentle and sensitive, which the Moon gifts to them in spades."
+    },
+    {
+    "name": "Leo",
+    "element": "Fire",
+    "rulingplanet": "Sun",
+    "traits": "passionate, loyal, dramatic",
+    "description": "Our fiery luminary, the Sun, is the great force of creativity, vitality, and power in our solar system and the ruler of Leo. This is what gives this zodiac sign their natural regality and sense of authority. Leos like to shine brightly and be the center of attention, and this all comes from the fact that the Sun is the most brilliant and radiant force we can see. This sense of pride runs through Leos’ souls."
+    },
+    {
+    "name": "Virgo",
+    "element": "Earth",
+    "rulingplanet": "Merury",
+    "traits": "logical and practical",
+    "description": "Mercury is a logical planet — which is why it oversees analytical Virgo.  When it comes to understanding ideas and plans, as well as executing them, this is the zodiac sign that has that covered most proficiently. This also gives Virgo a high aptitude for seeing both the intricate details as well as overall vision and understanding how to get from A to Z. Communication is key to that, as well as practicality, and Mercury empowers them with those skills."
+    },
+    {
+    "name": "Libra",
+    "element": "Air",
+    "rulingplanet": "Venus",
+    "traits": "the BEST sign, lovers of balance justice and harmony",
+    "description": "As the planet of love, harmony, and relationships, Venus is the guardian planet of Libra. that is what gives this zodiac sign a natural draw to beauty and balance, as well as keeping the peace. Libras focus more on unity rather than independence, triggered by Venus’s desire for partnership and connection. However, that doesn’t just affect Libras in a romantic sense; it also encourages them to be one of the most social zodiac signs."
+    },
+    {
+    "name": "Scorpio",
+    "element": "Water",
+    "rulingplanet": "Pluto and Mars",
+    "traits": "emotional, powerful and courageous",
+    "description": "Mars, the planet of passion and war, is actually the lower vibration of Pluto, the planet of power and rebirth. These energies are especially fiery, which is what gives Scorpios their intensity and hunger for experience. Both planets burn hot but have an air of sex and mystery to them, which is why Scorpios are known to be hypnotic and irresistible. Lastly, with Pluto being the planet of the subconscious and transformation, this is further reflected in Scorpio’s desire for inner exploration."
+    },
+    {
+    "name": "Sagittarius",
+    "element": "Fire",
+    "rulingplanet": "Jupiter",
+    "traits": "knowledge seekers, exciteable",
+    "description": "As the planet of expansion, growth and luck, Jupiter is what gives Sagittarius a carefree and optimistic outlook on life. Also, as a planet of wisdom, that further enhances this zodiac sign’s curious nature about exploring every piece of themselves, others and the world. Jupiter is all about “going big” and not being limited, which is why many Sagittarians end up being eternal sojourners eager to attain never-ending wisdom."
+    },
+    {
+    "name": "Capricorn",
+    "element": "Earth",
+    "rulingplanet": "Saturn",
+    "traits": "patient and dedicated",
+    "description": "Known as the planet of life lessons, responsibility and karma, Saturn is the “timekeeper” of the zodiac. Ruling over Capricorn, Saturn aids this zodiac sign in being one of the most ambitious and persevering of all. By understanding that life has restrictions and limitations, it aids them in being practical and realistic about everything in life. While that can give them a more orderly or cold nature, they are good at leading with their long-term vision rather than their hearts."
+    }
+    ]

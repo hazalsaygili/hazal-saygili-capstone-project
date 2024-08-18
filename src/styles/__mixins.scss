@@ -1,0 +1,35 @@
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style($background, $text-color, $border-color) {
+  background-color: $background;
+  color: $text-color;
+  border: 0.1rem solid $border-color;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &:hover {
+    background-color: $text-color;
+    color: $background;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin flex-center($direction: row, $align: center, $justify: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}

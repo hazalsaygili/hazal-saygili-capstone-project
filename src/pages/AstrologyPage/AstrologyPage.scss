@@ -1,0 +1,34 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.astrology-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 7rem 4rem;
+  min-height: 85vh;
+
+  .learn-about-astrology {
+    background-color: $space-blue;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    h2 {
+      color: $neon-pink;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+
+    .learn-about-astrology {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.character-number {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+
+  &__title {
+    color: $neon-pink;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}

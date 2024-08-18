@@ -1,0 +1,25 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.zodiac-report {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 2rem;
+
+  .subtitle {
+    font-size: 1.5rem;
+    color: $neon-purple;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $neon-purple; 
+    margin-bottom: 0.5rem;
+  }
+
+  strong {
+    color: $neon-purple; 
+  }
+}

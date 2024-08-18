@@ -1,0 +1,119 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.crystals-page {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+  }
+
+  &__sidebar {
+    width: 100%;
+    background-color: $space-blue;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+    @include tablet {
+      width: 30%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 0.5rem 0;
+
+        a {
+          display: block;
+          color: white;
+          text-decoration: none;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          transition: background-color 0.3s;
+
+          &.active {
+            background-color: $neon-pink;
+            color: $space-blue;
+          }
+
+          &:hover {
+            background-color: $neon-pink;
+            color: $space-blue;
+          }
+        }
+      }
+    }
+  }
+
+  &__main {
+    width: 100%;
+    padding: 2rem;
+
+    @include tablet {
+      width: 70%;
+    }
+
+    .crystals-page__title {
+      font-size: 2.5rem;
+      color: $neon-pink;
+      margin-bottom: 1rem;
+    }
+
+    .crystals-page__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__image {
+        max-width: 100%;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      &__details {
+        p {
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+        }
+
+        .chakra-link {
+          display: inline-block;
+          margin: 0.5rem;
+          text-decoration: none;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background-color: $space-blue;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .crystals-page__intro {
+      text-align: center;
+
+      h1 {
+        font-size: 2.5rem;
+        color: $neon-pink;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

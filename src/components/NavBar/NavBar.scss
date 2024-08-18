@@ -1,0 +1,52 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.navbar {
+  background-color: $space-blue;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+
+  .logo {
+    font-size: 2rem;
+    color: $neon-purple;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.1s;
+
+    &:hover {
+      color: $neon-pink;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    margin-right: 4rem;
+    a {
+      text-decoration: none;
+      color: $neon-pink;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      transition: background 0.3s, color 0.3s, border-bottom 0.3s;
+      position: relative;
+      border-radius: 0.5rem;
+
+
+      &.active {
+        border-bottom: 0.3rem solid $neon-purple;
+      }
+
+      &:hover {
+        background-color: white ;
+        color: $neon-purple;
+      }
+    }
+  }
+}

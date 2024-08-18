@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Amethyst",
+      "description": "Amethyst is a powerful and protective stone with a calming energy. It is known for its ability to enhance intuition, spiritual awareness, and clarity of thought. This crystal is often used to aid in meditation and to promote emotional balance and tranquility.",
+      "image": "path/to/amethyst-image.jpg",
+      "relatedChakras": ["Third Eye", "Crown"]
+    },
+    {
+      "name": "Pink Quartz",
+      "description": "Pink Quartz, also known as Rose Quartz, is the stone of unconditional love and compassion. It is known for its soothing energy that helps heal emotional wounds and promote self-love. This crystal also supports relationships and encourages harmony and peace.",
+      "image": "path/to/pink-quartz-image.jpg",
+      "relatedChakras": ["Heart"]
+    },
+    {
+      "name": "Crystal Quartz",
+      "description": "Crystal Quartz is known for its clarity and ability to amplify energy. It is a versatile healing stone that can be used for any purpose. It is believed to cleanse and energize the aura and to enhance spiritual growth and intuition.",
+      "image": "path/to/crystal-quartz-image.jpg",
+      "relatedChakras": ["Crown"]
+    },
+    {
+      "name": "Labradorite",
+      "description": "Labradorite is a stone of transformation and protection. It is known for its ability to enhance intuition and psychic abilities, as well as to shield the aura from negative energies. This crystal supports spiritual growth and self-discovery.",
+      "image": "path/to/labradorite-image.jpg",
+      "relatedChakras": ["Third Eye", "Crown"]
+    },
+    {
+      "name": "Citrine",
+      "description": "Citrine is a vibrant stone associated with abundance and prosperity. It is known for its ability to attract wealth, success, and positivity. Citrine also supports personal power and confidence, and is said to enhance creativity and manifestation abilities.",
+      "image": "path/to/citrine-image.jpg",
+      "relatedChakras": ["Solar Plexus"]
+    },
+    {
+      "name": "Jade",
+      "description": "Jade is a stone of harmony and balance. It is known for its ability to promote physical healing, emotional stability, and abundance. Jade also supports wisdom and insight, making it a valuable tool for personal growth and healing.",
+      "image": "path/to/jade-image.jpg",
+      "relatedChakras": ["Heart"]
+    },
+    {
+      "name": "Aventurine",
+      "description": "Aventurine is a stone of prosperity and well-being. It is known for its ability to attract luck, opportunity, and success. This crystal also supports emotional healing and growth, helping to alleviate stress and promote a positive outlook on life.",
+      "image": "path/to/aventurine-image.jpg",
+      "relatedChakras": ["Heart", "Solar Plexus"]
+    },
+    {
+      "name": "Selenite",
+      "description": "Selenite is a high-vibration crystal known for its ability to cleanse and recharge other crystals. It promotes mental clarity and spiritual growth, and is often used to remove blockages and negative energies. Selenite also enhances intuition and connection to higher realms.",
+      "image": "path/to/selenite-image.jpg",
+      "relatedChakras": ["Crown", "Third Eye"]
+    },
+    {
+      "name": "Aquamarine",
+      "description": "Aquamarine is a soothing stone associated with tranquility and emotional healing. It is known for its ability to calm the mind, reduce stress, and enhance communication. This crystal also supports personal empowerment and spiritual growth.",
+      "image": "path/to/aquamarine-image.jpg",
+      "relatedChakras": ["Throat"]
+    },
+    {
+      "name": "Lapis Lazuli",
+      "description": "Lapis Lazuli is a stone of wisdom and intuition. It is known for its ability to enhance intellectual abilities, promote self-awareness, and stimulate the desire for knowledge. This crystal also supports emotional healing and spiritual insight.",
+      "image": "path/to/lapis-lazuli-image.jpg",
+      "relatedChakras": ["Third Eye", "Throat"]
+    },
+    {
+      "name": "Tiger Eye",
+      "description": "Tiger Eye is a grounding stone known for its ability to enhance confidence, courage, and mental clarity. It supports personal power and helps to balance emotional and physical energy. Tiger Eye is also used to promote good luck and prosperity.",
+      "image": "path/to/tiger-eye-image.jpg",
+      "relatedChakras": ["Solar Plexus"]
+    },
+    {
+      "name": "Ruby",
+      "description": "Ruby is a stone of passion and vitality. It is known for its ability to enhance energy, enthusiasm, and motivation. This crystal also supports emotional healing, love, and self-confidence, helping to stimulate personal growth and transformation.",
+      "image": "path/to/ruby-image.jpg",
+      "relatedChakras": ["Root", "Heart"]
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+@import './styles/__variables';
+@import './styles/__mixins';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $space-blue;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

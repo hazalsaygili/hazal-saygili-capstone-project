@@ -1,0 +1,60 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.home-page {
+  .hero {
+    @include center-content;
+    flex-direction: column;
+    background-image: linear-gradient(
+      rgba(165, 70, 209, 0.5),
+      rgba(165, 70, 209, 0.5)
+    ),
+    url(../../assets/Backgrounds/homepage-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    min-height: 85vh;
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 4rem;
+      .hero-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: $space-blue;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+        h2 {
+          color: $neon-pink;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          margin-bottom: 1rem;
+        }
+
+        a {
+          @include button-style($neon-pink, white, $neon-pink);
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hero-content {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      .hero-item {
+        flex: 1;
+      }
+    }
+  }
+}

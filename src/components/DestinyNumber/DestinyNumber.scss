@@ -1,0 +1,10 @@
+@import '../../styles/__mixins';
+@import '../../styles/__variables';
+
+.destination-number-report {
+  .subtitle {
+    font-size: 1.5rem;
+    color: $neon-purple;
+    margin-bottom: 1rem;
+  }
+}
