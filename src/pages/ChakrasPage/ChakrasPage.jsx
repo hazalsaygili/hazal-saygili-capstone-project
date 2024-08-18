@@ -1,65 +1,125 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import './ChakrasPage.scss';
 import chakrasData from '../../data/Chakras.json';
+import chakrasBackground from '../../assets/Backgrounds/chakrabody.webp'
 
 const ChakrasPage = () => {
-  const [selectedChakra, setSelectedChakra] = useState(chakrasData[0]);
+  const { chakraName } = useParams();
+  const [selectedChakra, setSelectedChakra] = useState(null);
 
-  const handleChakraClick = (chakra) => {
-    setSelectedChakra(chakra);
-  };
+  useEffect(() => {
+    if (chakraName) {
+      const chakra = chakrasData.find(
+        (c) => c.name.toLowerCase() === chakraName.toLowerCase()
+      );
+      setSelectedChakra(chakra || null);
+    } else {
+      setSelectedChakra(null);
+    }
+  }, [chakraName]);
 
   return (
     <div className="chakras__container">
       <div className="chakras__hero">
         {/* Left Side: Chakra Selector */}
         <div className="chakras__sidebar">
-          {chakrasData.map((chakra, index) => (
-            <button
-              key={index}
-              className="chakra__button"
-              style={{ backgroundColor: chakra.ChakraColor }}
-              onClick={() => handleChakraClick(chakra)}
+          {/* <img
+            src={chakrasBackground} 
+            alt="Chakra Diagram"
+            className="chakra__diagram"
+          /> */}
+          {chakrasData.map((chakra) => (
+            <Link
+              key={chakra.name}
+              to={`/chakras/${chakra.name.toLowerCase()}`}
+              className="chakra__button-link"
             >
-              {chakra.ChakraName}
-            </button>
+              <button
+                className="chakra__button"
+                style={{ backgroundColor: chakra.color }}
+              >
+                {chakra.name}
+              </button>
+            </Link>
           ))}
         </div>
 
-        {/* Right Side: Chakra Details */}
+        {/* Right Side: Content */}
         <div className="chakras__content">
-          <h2>{selectedChakra.ChakraName} ({selectedChakra.ChakraIndianName})</h2>
-          <div className="chakra__description">
-            <p>{selectedChakra.ChakraDescription}</p>
-            <h3>Related Crystals:</h3>
-            <div className="chakra__crystals">
-              {(selectedChakra.ChakraCrystals || []).map((crystal, index) => (
-                <div
-                  key={index}
-                  className="chakra__crystal"
-                  style={{
-                    borderColor: selectedChakra.ChakraColor,
-                    color: selectedChakra.ChakraColor,
-                  }}
-                >
-                  {crystal}
+          {!selectedChakra ? (
+            <>
+              <h2>Chakras Overview</h2>
+              <p>
+                Chakras are the energy centers in our body through which energy flows.
+                There are seven main chakras, which align the spine, starting from the
+                base of the spine through to the crown of the head. Each chakra
+                represents different aspects of our physical, emotional, and spiritual
+                well-being. Balancing these chakras can lead to a harmonious and
+                fulfilling life.
+              </p>
+              <h3>Importance of Chakras:</h3>
+              <ul>
+                <li>
+                  <strong>Physical Health:</strong> Balanced chakras promote optimal
+                  physical functioning and vitality.
+                </li>
+                <li>
+                  <strong>Mental Clarity:</strong> Aligning chakras helps in achieving
+                  mental clarity and focus.
+                </li>
+                <li>
+                  <strong>Emotional Stability:</strong> A balanced chakra system leads
+                  to emotional stability and resilience.
+                </li>
+                <li>
+                  <strong>Spiritual Growth:</strong> Chakras are key to spiritual
+                  awakening and enlightenment.
+                </li>
+              </ul>
+              <p>
+                Click on any chakra on the left to learn more about its functions,
+                associated crystals, and mudras.
+              </p>
+            </>
+          ) : (
+            <>
+              <h2>
+                {selectedChakra.name} ({selectedChakra.indianName})
+              </h2>
+              <div className="chakra__description">
+                <p>{selectedChakra.description}</p>
+                <h3>Related Crystals:</h3>
+                <div className="chakra__crystals">
+                  {(selectedChakra.crystals || []).map((crystal, index) => (
+                    <div
+                      key={index}
+                      className="chakra__crystal"
+                      style={{
+                        borderColor: selectedChakra.color,
+                        color: selectedChakra.color,
+                      }}
+                    >
+                      {crystal}
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
+              </div>
 
-          {/* New Section for Mudras */}
-          <div className="chakras__mudras">
-            <h3>Mudras for {selectedChakra.ChakraName}:</h3>
-            <div className="chakra__mudras-list">
-              {(selectedChakra.ChakraMudras || []).map((mudra, index) => (
-                <div key={index} className="chakra__mudra">
-                  <img src={mudra.url} alt={mudra.name} />
-                  <p>{mudra.name}</p>
+              {/* Mudras Section */}
+              <div className="chakras__mudras">
+                <h3>Mudras for {selectedChakra.name}:</h3>
+                <div className="chakra__mudras-list">
+                  {(selectedChakra.mudras || []).map((mudra, index) => (
+                    <div key={index} className="chakra__mudra">
+                      <img src={mudra.url} alt={mudra.name} />
+                      <p>{mudra.name}</p>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

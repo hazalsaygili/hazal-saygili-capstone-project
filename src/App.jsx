@@ -16,7 +16,9 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/numerology" element={<NumerologyPage />} />
           <Route path="/chakras" element={<ChakrasPage />} />
+          <Route path="/chakras/:chakraName" element={<ChakrasPage />} />
           <Route path="/crystals" element={<CrystalsPage />} />
+          <Route path="/crystals/:crystalName" element={<CrystalsPage />} />
           <Route path="/astrology" element={<AstrologyPage />} />
         </Routes>
       </div>

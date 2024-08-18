@@ -10,15 +10,18 @@ const CrystalsPage = () => {
   const [chakras] = useState(ChakrasData);
   const [selectedCrystal, setSelectedCrystal] = useState(null);
 
-  console.log(CrystalsData);
-
   useEffect(() => {
-    const crystal = crystals.find(c => c.name.toLowerCase() === crystalName.toLowerCase());
-    setSelectedCrystal(crystal);
+    if (crystalName) {
+      const crystal = crystals.find(c => c.name.toLowerCase() === crystalName.toLowerCase());
+      console.log("test", crystal)
+      setSelectedCrystal(crystal);
+    } else {
+      setSelectedCrystal(null); // Reset selected crystal if no crystalName in params
+    }
   }, [crystalName, crystals]);
 
   const getChakraColor = (chakraName) => {
-    const chakra = chakras.find(ch => ch.ChakraName.toLowerCase() === chakraName.toLowerCase());
+    const chakra = chakras.find(ch => ch.name.toLowerCase() === chakraName.toLowerCase());
     return chakra ? chakra.ChakraColor : '#ffffff'; // Fallback color
   };
 
@@ -67,7 +70,8 @@ const CrystalsPage = () => {
         ) : (
           <div className="crystals-page__intro">
             <h1>Crystals Overview</h1>
-            <p>Learn about the various crystals, their uses, and their connections to chakras. Select a crystal from the list on the left to get detailed information.</p>
+            <p>Crystals have been used for centuries for their healing properties and energetic influences. Each crystal carries unique vibrations that can support balance, healing, and spiritual growth. Explore the crystals listed in the sidebar to learn more about their specific properties and their connections to the chakras.</p>
+            <p>Select a crystal from the list on the left to view detailed information about its properties and uses.</p>
           </div>
         )}
       </main>
