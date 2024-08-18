@@ -45,9 +45,7 @@ const SoulUrgeNumber = ({ fullName }) => {
     };
 
     const soulUrgeNumber = calculateSoulUrgeNumber(fullName);
-    console.log('Calculated Soul Urge Number:', soulUrgeNumber); // Debugging line
     const soulUrgeObj = SoulUrges.find((obj) => obj.id === soulUrgeNumber);
-    console.log('Found Soul Urge Object:', soulUrgeObj); // Debugging line
     setSoulUrgeNumber(soulUrgeNumber);
     setSoulUrgeObj(soulUrgeObj);
   }, [fullName]);

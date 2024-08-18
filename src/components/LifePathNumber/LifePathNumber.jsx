@@ -24,9 +24,7 @@ const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
     };
 
     let life_path_number = lifePathCalculator(birthDay, birthMonth, birthYear);
-    console.log('Calculated Life Path Number:', life_path_number); // Debugging line
     let newLifePathObj = lifePaths.find((obj) => obj.id == life_path_number);
-    console.log('Found Life Path Object:', newLifePathObj); // Debugging line
     setLifePathNumber(life_path_number);
     setLifePathObj(newLifePathObj);
   }, [birthDay, birthMonth, birthYear]);

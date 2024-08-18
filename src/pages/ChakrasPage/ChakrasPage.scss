@@ -23,17 +23,24 @@
 
 .chakras__sidebar {
   width: 100%;
+  border-radius: 0.5rem;
   background-image: url('../../assets/Backgrounds/chakrabody.webp');
-  background-size: cover;
+  background-size: auto 100%;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
+  background-repeat: no-repeat;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+
+  .chakras__button-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
   @include tablet {
-    width: 40%;
-    padding: 2rem;
+    width: 50%;
   }
 
   .chakra__button {
@@ -64,7 +71,6 @@
 
   h2 {
     font-size: 2.5rem;
-    color: $neon-pink;
     margin-bottom: 1rem;
   }
 
@@ -121,13 +127,12 @@
         img {
           max-width: 8rem;
           border-radius: 50%;
-          border: 2px solid $neon-purple;
+          border: 2px solid;
         }
 
         p {
           margin-top: 0.5rem;
           font-size: 1rem;
-          color: $neon-purple;
         }
       }
     }

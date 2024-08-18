@@ -16,13 +16,13 @@ const CrystalsPage = () => {
       console.log("test", crystal)
       setSelectedCrystal(crystal);
     } else {
-      setSelectedCrystal(null); // Reset selected crystal if no crystalName in params
+      setSelectedCrystal(null); 
     }
   }, [crystalName, crystals]);
 
   const getChakraColor = (chakraName) => {
     const chakra = chakras.find(ch => ch.name.toLowerCase() === chakraName.toLowerCase());
-    return chakra ? chakra.ChakraColor : '#ffffff'; // Fallback color
+    return chakra ? chakra.ChakraColor : '#ffffff'; 
   };
 
   return (
@@ -52,7 +52,7 @@ const CrystalsPage = () => {
                 <p><strong>Description:</strong></p>
                 <p>{selectedCrystal.description}</p>
                 <p>
-                  <strong>Related Chakras:</strong>
+                  <strong>Related Chakras: </strong>
                   {selectedCrystal.relatedChakras.map(chakra => (
                     <NavLink
                       key={chakra}

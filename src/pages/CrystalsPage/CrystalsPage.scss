@@ -3,7 +3,8 @@
 
 .crystals-page {
   display: flex;
-  padding: 2rem;
+  align-items: center;
+  padding: 4rem;
   flex-direction: column;
 
   @include tablet {
@@ -14,11 +15,12 @@
     width: 100%;
     background-color: $space-blue;
     color: white;
-    padding: 1rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 5px rgba($neon-pink, 0.3);
 
     @include tablet {
-      width: 30%;
+      width: 25%;
     }
 
     h2 {
@@ -85,19 +87,20 @@
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
+      }
 
-        .chakra-link {
-          display: inline-block;
-          margin: 0.5rem;
-          text-decoration: none;
-          padding: 0.5rem 1rem;
-          border-radius: 0.5rem;
-          transition: background-color 0.3s;
-
-          &:hover {
-            background-color: $space-blue;
-            color: white;
-          }
+      .chakra-link {
+        display: inline-block;
+        margin: 0.5rem;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s;
+        color: $neon-pink;
+        border: 1px solid $neon-pink;
+        &:hover {
+          background-color: white;
+          color:$neon-pink;
         }
       }
     }

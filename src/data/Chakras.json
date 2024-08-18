@@ -7,7 +7,7 @@
     "crystals": ["Selenite", "Clear Quartz", "Amethyst", "Diamond"],
     "mudras": [
       {"name": "Sahasrara Mudra", "url": "path/to/sahasrara_mudra.jpg"},
-      {"name": "Shunya Mudra", "url": "path/to/shunya_mudra.jpg"},
+      {"name": "Shunya Mudra", "url": "/mudras/shunya_mudra.png"},
       {"name": "Jnana Mudra", "url": "path/to/jnana_mudra.jpg"}
     ]
   },
@@ -15,7 +15,7 @@
     "name": "Third Eye",
     "indianName": "Ajna",
     "description": "The Third Eye Chakra is the center of our intuition and foresight. It governs our perception, imagination, and inner vision.",
-    "color": "#4b0082",
+    "color": "#6e09b6",
     "crystals": ["Amethyst", "Labradorite", "Sodalite", "Lepidolite"],
     "mudras": [
       {"name": "Kalesvara Mudra", "url": "path/to/kalesvara_mudra.jpg"},

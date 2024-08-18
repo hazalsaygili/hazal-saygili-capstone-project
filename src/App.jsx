@@ -6,7 +6,7 @@ import NumerologyPage from './pages/NumerologyPage/NumerologyPage';
 import ChakrasPage from './pages/ChakrasPage/ChakrasPage';
 import CrystalsPage from './pages/CrystalsPage/CrystalsPage';
 import AstrologyPage from './pages/AstrologyPage/AstrologyPage';
-import './App.scss'
+
 const App = () => {
   return (
     <Router>
