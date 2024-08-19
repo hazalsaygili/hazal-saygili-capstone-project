@@ -27,7 +27,7 @@
     "name": "Throat Chakra",
     "indianName": "Vishuddha",
     "description": "The Throat Chakra is the voice of the body, a pressure valve that allows energy from the other chakras to be expressed. It governs communication and self-expression.",
-    "color": "#0000ff",
+    "color": "#00ccff",
     "crystals": ["Aquamarine", "Lapis Lazuli", "Blue Lace Agate", "Turquoise"],
     "mudras": [
       {"name": "Shankh Mudra", "url": "/mudras/shankh_mudra.png"},
