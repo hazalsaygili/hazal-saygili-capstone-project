@@ -4,7 +4,7 @@
 .crystals-page {
   display: flex;
   align-items: center;
-  padding: 4rem;
+  padding: 1rem 4rem;
   flex-direction: column;
 
   @include tablet {
@@ -16,8 +16,7 @@
     width: 100%;
     background-color: $space-blue;
     color: white;
-    padding: 2rem;
-    margin-top: 2rem;;
+    padding: 1.5rem 2.25rem;
     box-shadow: 0 0 8px rgba($neon-pink, 0.5);
 
     @include tablet {
@@ -80,14 +79,6 @@
       align-items: center;
       padding: 4rem;
       padding-top: 2rem;
-
-  
-        // img {
-        //   width: 100%;
-        //   height: 100%;
-        //   object-fit: cover;
-        //   display:block;
-        // }
 
       &__details {
         p {

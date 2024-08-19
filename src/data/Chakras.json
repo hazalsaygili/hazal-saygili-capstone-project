@@ -15,7 +15,7 @@
     "name": "Third Eye Chakra",
     "indianName": "Ajna",
     "description": "The Third Eye Chakra is the center of our intuition and foresight. It governs our perception, imagination, and inner vision.",
-    "color": "#6e09b6",
+    "color": "#3705b5",
     "crystals": ["Amethyst", "Labradorite", "Sodalite", "Lepidolite"],
     "mudras": [
       {"name": "Ajna Chackra Mudra", "url": "/mudras/ajna_chakra_mudra.png"},

@@ -29,8 +29,6 @@ const AstrologyForm = ({ day, setDay, month, setMonth, year, setYear, handleSubm
           placeholder="Year"
           value={year}
           onChange={(e) => setYear(e.target.value)}
-          min="1100"
-          max="7099"
           required
         />
         <button type="button" onClick={handleSubmit}>
