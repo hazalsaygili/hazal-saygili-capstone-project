@@ -6,8 +6,8 @@
     @include center-content;
     flex-direction: column;
     background-image: linear-gradient(
-      rgba(165, 70, 209, 0.5),
-      rgba(165, 70, 209, 0.5)
+      rgba(165, 70, 209, 0.3),
+      rgba(165, 70, 209, 0.3)
     ),
     url(../../assets/Backgrounds/homepage-background.jpg);
     background-size: cover;
@@ -28,7 +28,7 @@
         color: $space-blue;
         padding: 2rem;
         border-radius: 1rem;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 1rem rgba($neon-pink, 0.3);
 
         h2 {
           color: $neon-pink;
@@ -40,7 +40,9 @@
         }
 
         a {
+          margin-top: 1rem;
           @include button-style($neon-pink, white, $neon-pink);
+          text-decoration: none;
         }
       }
     }
