@@ -1,6 +1,6 @@
 [
   {
-    "name": "Crown",
+    "name": "Crown Chakra",
     "indianName": "Sahasrara",
     "description": "The Crown Chakra represents our ability to be fully connected spiritually. It is the center of enlightenment and spiritual connection to our higher selves.",
     "color": "#8b00ff",
@@ -8,23 +8,23 @@
     "mudras": [
       {"name": "Sahasrara Mudra", "url": "path/to/sahasrara_mudra.jpg"},
       {"name": "Shunya Mudra", "url": "/mudras/shunya_mudra.png"},
-      {"name": "Jnana Mudra", "url": "path/to/jnana_mudra.jpg"}
+      {"name": "Jnana Mudra", "url": "/mudras/abhaya_2.png"}
     ]
   },
   {
-    "name": "Third Eye",
+    "name": "Third Eye Chakra",
     "indianName": "Ajna",
     "description": "The Third Eye Chakra is the center of our intuition and foresight. It governs our perception, imagination, and inner vision.",
     "color": "#6e09b6",
     "crystals": ["Amethyst", "Labradorite", "Sodalite", "Lepidolite"],
     "mudras": [
-      {"name": "Kalesvara Mudra", "url": "path/to/kalesvara_mudra.jpg"},
+      {"name": "Ajna Chakra Mudra", "url": "/mudras/ajna_chakra_mudra.png"},
       {"name": "Shambhavi Mudra", "url": "path/to/shambhavi_mudra.jpg"},
       {"name": "Gyan Mudra", "url": "path/to/gyan_mudra.jpg"}
     ]
   },
   {
-    "name": "Throat",
+    "name": "Throat Chakra",
     "indianName": "Vishuddha",
     "description": "The Throat Chakra is the voice of the body, a pressure valve that allows energy from the other chakras to be expressed. It governs communication and self-expression.",
     "color": "#0000ff",
@@ -36,19 +36,19 @@
     ]
   },
   {
-    "name": "Heart",
+    "name": "Heart Chakra",
     "indianName": "Anahata",
     "description": "The Heart Chakra is the center of love, compassion, and kindness. It connects the lower chakras of matter and the upper chakras of spirit.",
     "color": "#00ff00",
     "crystals": ["Rose Quartz", "Green Aventurine", "Jade", "Emerald"],
     "mudras": [
-      {"name": "Anjali Mudra", "url": "path/to/anjali_mudra.jpg"},
-      {"name": "Padma Mudra", "url": "path/to/padma_mudra.jpg"},
+      {"name": "Anjali Mudra", "url": "/mudras/anjali_mudra.png"},
+      {"name": "Anahata Mudra", "url": "/mudras/anahata_chackra_mudra.png"},
       {"name": "Hridaya Mudra", "url": "path/to/hridaya_mudra.jpg"}
     ]
   },
   {
-    "name": "Solar Plexus",
+    "name": "Solar Plexus Chakra",
     "indianName": "Manipura",
     "description": "The Solar Plexus Chakra is the core of our personality, identity, and ego. It controls our personal power, self-worth, and confidence.",
     "color": "#ffff00",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "Sacral",
+    "name": "Sacral Chakra",
     "indianName": "Svadhisthana",
     "description": "The Sacral Chakra is the center of our creativity, sexuality, and emotions. It governs our ability to accept others and new experiences.",
     "color": "#ff7f00",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "name": "Root",
+    "name": "Root Chakra",
     "indianName": "Muladhara",
     "description": "The Root Chakra represents our foundation and feeling of being grounded. It is associated with survival issues such as financial independence, money, and food.",
     "color": "#ff0000",

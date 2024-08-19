@@ -22,13 +22,18 @@ const CrystalsPage = () => {
 
   const getChakraColor = (chakraName) => {
     const chakra = chakras.find(ch => ch.name.toLowerCase() === chakraName.toLowerCase());
-    return chakra ? chakra.ChakraColor : '#ffffff'; 
+    return chakra ? chakra.color : '#ffffff'; 
+  };
+
+  const getChakraRoute = (chakraName) => {
+    const chakra = chakras.find(ch => ch.name.toLowerCase().includes(chakraName.toLowerCase()));
+    return chakra ? `/chakras/${chakra.name.toLowerCase().replace(/\s+/g, '%20')}` : '#';
   };
 
   return (
     <div className="crystals-page">
       <aside className="crystals-page__sidebar">
-        <h2>Crystal Directory</h2>
+        <h2>Crystal Library</h2>
         <ul>
           {crystals.map(crystal => (
             <li key={crystal.name}>
@@ -56,7 +61,7 @@ const CrystalsPage = () => {
                   {selectedCrystal.relatedChakras.map(chakra => (
                     <NavLink
                       key={chakra}
-                      to={`/chakras/${chakra.toLowerCase()}`}
+                      to={getChakraRoute(chakra)}
                       className="chakra-link"
                       style={{ color: getChakraColor(chakra) }}
                     >
@@ -69,7 +74,7 @@ const CrystalsPage = () => {
           </>
         ) : (
           <div className="crystals-page__intro">
-            <h1>Crystals Overview</h1>
+            <h1>Crystals and Healing</h1>
             <p>Crystals have been used for centuries for their healing properties and energetic influences. Each crystal carries unique vibrations that can support balance, healing, and spiritual growth. Explore the crystals listed in the sidebar to learn more about their specific properties and their connections to the chakras.</p>
             <p>Select a crystal from the list on the left to view detailed information about its properties and uses.</p>
           </div>

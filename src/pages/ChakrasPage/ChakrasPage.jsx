@@ -41,7 +41,7 @@ const ChakrasPage = () => {
         <div className="chakras__content">
           {!selectedChakra ? (
             <>
-              <h2>Chakras Overview</h2>
+              <h2>Chakras</h2>
               <p>
                 Chakras are the energy centers in our body through which energy
                 flows. There are seven main chakras, which align the spine,
@@ -97,9 +97,9 @@ const ChakrasPage = () => {
                   ))}
                 </div>
               </div>
+              <h3>Mudras for {selectedChakra.name}:</h3>
 
               <div className="chakras__mudras">
-                <h3>Mudras for {selectedChakra.name}:</h3>
                 <div className="chakra__mudras-list">
                   {(selectedChakra.mudras || []).map((mudra, index) => (
                     <div

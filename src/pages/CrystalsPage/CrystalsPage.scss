@@ -84,7 +84,6 @@
 
       &__details {
         p {
-          font-size: 1.2rem;
           margin-bottom: 1rem;
         }
       }
@@ -99,8 +98,8 @@
         color: $neon-pink;
         border: 1px solid $neon-pink;
         &:hover {
-          background-color: white;
-          color:$neon-pink;
+          background-color: $neon-pink;
+          color: $space-blue;
         }
       }
     }
