@@ -4,7 +4,8 @@
 .chakras__container {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 5rem 4rem;
+  font-size: 1.5rem;
 
   @include tablet {
     padding: 2rem;
@@ -25,7 +26,7 @@
   width: 100%;
   border-radius: 0.5rem;
   background-image: url('../../assets/Backgrounds/chakrabody.webp');
-  background-size: auto 100%;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 8rem;
@@ -56,7 +57,7 @@
     text-align: center;
 
     &:hover {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 1rem rgba(193, 255, 49, 0.5);
     }
   }
 }
@@ -71,12 +72,10 @@
 
   h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
   }
 
   .chakra__description {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
   }
 
   .chakra__crystals {
@@ -101,7 +100,7 @@
   }
 
   .chakras__mudras {
-    margin-top: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,14 +124,15 @@
         text-align: center;
 
         img {
-          max-width: 8rem;
+          width: 10rem;
+          height:12rem;
           border-radius: 50%;
           border: 2px solid;
         }
 
         p {
           margin-top: 0.5rem;
-          font-size: 1rem;
+          font-size: 1.5rem;
         }
       }
     }

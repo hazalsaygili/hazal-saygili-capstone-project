@@ -6,9 +6,9 @@
     "color": "#8b00ff",
     "crystals": ["Selenite", "Clear Quartz", "Amethyst", "Diamond"],
     "mudras": [
-      {"name": "Sahasrara Mudra", "url": "path/to/sahasrara_mudra.jpg"},
+      {"name": "Sahasrara Mudra", "url": "/mudras/sahasrara_mudra.png"},
       {"name": "Shunya Mudra", "url": "/mudras/shunya_mudra.png"},
-      {"name": "Jnana Mudra", "url": "/mudras/abhaya_2.png"}
+      {"name": "Jnana Mudra", "url": "/mudras/jnana_mudra.png"}
     ]
   },
   {
@@ -18,9 +18,9 @@
     "color": "#6e09b6",
     "crystals": ["Amethyst", "Labradorite", "Sodalite", "Lepidolite"],
     "mudras": [
-      {"name": "Ajna Chakra Mudra", "url": "/mudras/ajna_chakra_mudra.png"},
-      {"name": "Shambhavi Mudra", "url": "path/to/shambhavi_mudra.jpg"},
-      {"name": "Gyan Mudra", "url": "path/to/gyan_mudra.jpg"}
+      {"name": "Ajna Chackra Mudra", "url": "/mudras/ajna_chakra_mudra.png"},
+      {"name": "Chonmukha Mudra", "url": "/mudras/chonmukha_mudra.png"},
+      {"name": "Akasha Mudra", "url": "/mudras/akasha_mudra.png"}
     ]
   },
   {
@@ -30,9 +30,9 @@
     "color": "#0000ff",
     "crystals": ["Aquamarine", "Lapis Lazuli", "Blue Lace Agate", "Turquoise"],
     "mudras": [
-      {"name": "Shankh Mudra", "url": "path/to/shankh_mudra.jpg"},
-      {"name": "Simhamukha Mudra", "url": "path/to/simhamukha_mudra.jpg"},
-      {"name": "Brahma Mudra", "url": "path/to/brahma_mudra.jpg"}
+      {"name": "Shankh Mudra", "url": "/mudras/shankh_mudra.png"},
+      {"name": "Simhamukha Mudra", "url": "/mudras/simhamukha_mudra.png"},
+      {"name": "Brahma Mudra", "url": "/mudras/brahma_mudra.png"}
     ]
   },
   {
@@ -44,7 +44,7 @@
     "mudras": [
       {"name": "Anjali Mudra", "url": "/mudras/anjali_mudra.png"},
       {"name": "Anahata Mudra", "url": "/mudras/anahata_chackra_mudra.png"},
-      {"name": "Hridaya Mudra", "url": "path/to/hridaya_mudra.jpg"}
+      {"name": "Hridaya Mudra", "url": "/mudras/hridaya_mudra.png"}
     ]
   },
   {
@@ -54,9 +54,9 @@
     "color": "#ffff00",
     "crystals": ["Citrine", "Yellow Jasper", "Topaz", "Golden Calcite"],
     "mudras": [
-      {"name": "Hakini Mudra", "url": "path/to/hakini_mudra.jpg"},
-      {"name": "Surya Mudra", "url": "path/to/surya_mudra.jpg"},
-      {"name": "Maha Sacral Mudra", "url": "path/to/maha_sacral_mudra.jpg"}
+      {"name": "Hakini Mudra", "url": "/mudras/hakini_mudra.png"},
+      {"name": "Surya Mudra", "url": "/mudras/surya_mudra.png"},
+      {"name": "Maha Sacral Mudra", "url": "/mudras/maha_sacral_mudra.png"}
     ]
   },
   {
@@ -66,9 +66,9 @@
     "color": "#ff7f00",
     "crystals": ["Carnelian", "Tiger Eye", "Orange Calcite", "Amber"],
     "mudras": [
-      {"name": "Yoni Mudra", "url": "path/to/yoni_mudra.jpg"},
-      {"name": "Jaladhara Mudra", "url": "path/to/jaladhara_mudra.jpg"},
-      {"name": "Makara Mudra", "url": "path/to/makara_mudra.jpg"}
+      {"name": "Yoni Mudra", "url": "/mudras/yoni_mudra.png"},
+      {"name": "Jaladhara Mudra", "url": "/mudras/jaladhara_mudra.png"},
+      {"name": "Makara Mudra", "url": "/mudras/makara_mudra.png"}
     ]
   },
   {
@@ -78,9 +78,9 @@
     "color": "#ff0000",
     "crystals": ["Ruby", "Hematite", "Red Jasper", "Black Tourmaline"],
     "mudras": [
-      {"name": "Muladhara Mudra", "url": "path/to/muladhara_mudra.jpg"},
-      {"name": "Ganesha Mudra", "url": "path/to/ganesha_mudra.jpg"},
-      {"name": "Ksepana Mudra", "url": "path/to/ksepana_mudra.jpg"}
+      {"name": "Muladhara Mudra", "url": "/mudras/muladhara_mudra.png"},
+      {"name": "Ganesha Mudra", "url": "/mudras/ganesha_mudra.png"},
+      {"name": "Ksepana Mudra", "url": "/mudras/ksepana_mudra.png"}
     ]
   }
 ]

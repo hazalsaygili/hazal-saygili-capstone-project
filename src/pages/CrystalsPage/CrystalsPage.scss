@@ -9,6 +9,8 @@
 
   @include tablet {
     flex-direction: row;
+    align-items:first baseline;
+
   }
 
   &__sidebar {
@@ -16,7 +18,7 @@
     background-color: $space-blue;
     color: white;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 2rem;;
     box-shadow: 0 0 5px rgba($neon-pink, 0.3);
 
     @include tablet {
@@ -75,10 +77,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 2rem;
 
       &__image {
         max-width: 100%;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
         margin-bottom: 1rem;
       }
 

@@ -41,7 +41,7 @@ const NumerologyForm = ({ fullName, setFullName, day, setDay, month, setMonth, y
           required
         />
         <button type="button" onClick={handleSubmit}>
-          SHOW MY NUMEROLOGY ANALYSIS
+          SHOW MY NUMEROLOGY REPORT
         </button>
         {(!fullName || !day || !month || !year) && (
           <p className="warning-message">Please provide full name and birthdate to see the Numerology Analysis</p>

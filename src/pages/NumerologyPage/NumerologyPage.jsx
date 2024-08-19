@@ -75,7 +75,7 @@ const NumerologyPage = () => {
               required
             />
           </label>
-          <button type="submit" className="numerology-page__submit-button">SHOW MY ANALYSIS</button>
+          <button type="submit" className="numerology-page__submit-button">SHOW MY NUMEROLOGY REPORT</button>
           {!fullName || !birthDay || !birthMonth || !birthYear ? (
             <p className="numerology-page__warning">Please provide full name and date of birth to see Numerology Report</p>
           ) : null}
