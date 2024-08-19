@@ -53,7 +53,7 @@ const DestinyNumber = ({ fullName }) => {
 
   return (
     <div className="numerology-section">
-      <h2>Destination Number: {destinyNumber}</h2>
+      <h2>Destiny Number: {destinyNumber}</h2>
       <h3>{destinyNumberObj.title}</h3>
       <p>{destinyNumberObj.description}</p>
     </div>

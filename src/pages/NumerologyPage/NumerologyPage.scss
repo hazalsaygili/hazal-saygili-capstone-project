@@ -125,22 +125,6 @@
     }
   }
 
-  &__see-astrology {
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
-    color: white;
-    background-color: $neon-purple;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    margin-top: 2rem;
-
-    &:hover {
-      background-color: lighten($neon-purple, 10%);
-    }
-  }
-
   &__intro {
     background-color: white;
     padding: 2rem;

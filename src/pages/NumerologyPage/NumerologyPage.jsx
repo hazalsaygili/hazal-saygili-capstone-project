@@ -22,8 +22,6 @@ const NumerologyPage = () => {
     }
   };
 
-  console.log(activeSection); 
-
   return (
     <section className="numerology-page">
       <div className="numerology-page__form-container">
@@ -89,28 +87,27 @@ const NumerologyPage = () => {
                 className={`numerology-page__tab ${activeSection === 'lifePath' ? 'active' : ''}`}
                 onClick={() => setActiveSection('lifePath')}
               >
-                Life Path
+                Life Path Number
               </button>
               <button
                 className={`numerology-page__tab ${activeSection === 'destiny' ? 'active' : ''}`}
                 onClick={() => setActiveSection('destiny')}
               >
-                Destiny
+                Destiny Number
               </button>
               <button
                 className={`numerology-page__tab ${activeSection === 'soulUrge' ? 'active' : ''}`}
                 onClick={() => setActiveSection('soulUrge')}
               >
-                Soul Urge
+                Soul Urge Number
               </button>
               <button
                 className={`numerology-page__tab ${activeSection === 'character' ? 'active' : ''}`}
                 onClick={() => setActiveSection('character')}
               >
-                Character
+                Character Number
               </button>
             </div>
-            {/* Rendering the corresponding component based on the activeSection */}
             {activeSection === 'lifePath' && (
               <LifePathNumber fullName={fullName} birthDay={birthDay} birthMonth={birthMonth} birthYear={birthYear} />
             )}
@@ -123,9 +120,6 @@ const NumerologyPage = () => {
             {activeSection === 'character' && (
               <CharacterNumber fullName={fullName} />
             )}
-            <button className="numerology-page__see-astrology" onClick={() => window.location.href = `/astrology?day=${birthDay}&month=${birthMonth}`}>
-              SEE ASTROLOGY REPORT
-            </button>
           </div>
         ) : (
           <div className="numerology-page__intro">

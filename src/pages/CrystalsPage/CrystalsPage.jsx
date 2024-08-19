@@ -15,7 +15,6 @@ const CrystalsPage = () => {
       const crystal = crystals.find(
         (c) => c.name.toLowerCase() === crystalName.toLowerCase()
       );
-      console.log("test", crystal);
       setSelectedCrystal(crystal);
     } else {
       setSelectedCrystal(null);
