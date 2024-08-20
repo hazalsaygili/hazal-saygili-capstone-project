@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import SoulUrges from '../../data/SoulUrges.json';
-import './SoulUrgeNumber.scss';
+import React, { useEffect, useState } from "react";
+import SoulUrges from "../../data/SoulUrges.json";
+import "./SoulUrgeNumber.scss";
 
 const SoulUrgeNumber = ({ fullName }) => {
   const [soulUrgeNumber, setSoulUrgeNumber] = useState(null);
@@ -9,18 +9,18 @@ const SoulUrgeNumber = ({ fullName }) => {
   useEffect(() => {
     const calculateSoulUrgeNumber = (fullName) => {
       const letterToNumberMap = {
-        1: ['A', 'J', 'S'],
-        2: ['B', 'K', 'T'],
-        3: ['C', 'L', 'U'],
-        4: ['D', 'M', 'V'],
-        5: ['E', 'N', 'W'],
-        6: ['F', 'O', 'X'],
-        7: ['G', 'P', 'Y'],
-        8: ['H', 'Q', 'Z'],
-        9: ['I', 'R']
+        1: ["A", "J", "S"],
+        2: ["B", "K", "T"],
+        3: ["C", "L", "U"],
+        4: ["D", "M", "V"],
+        5: ["E", "N", "W"],
+        6: ["F", "O", "X"],
+        7: ["G", "P", "Y"],
+        8: ["H", "Q", "Z"],
+        9: ["I", "R"],
       };
 
-      const vowels = ['A', 'E', 'I', 'O', 'U'];
+      const vowels = ["A", "E", "I", "O", "U"];
       let sum = 0;
 
       for (const char of fullName.toUpperCase()) {
@@ -36,7 +36,10 @@ const SoulUrgeNumber = ({ fullName }) => {
       const reduceToSingleDigit = (num) => {
         const masterNumbers = [11, 22, 33];
         while (num > 9 && !masterNumbers.includes(num)) {
-          num = num.toString().split('').reduce((sum, digit) => sum + parseInt(digit), 0);
+          num = num
+            .toString()
+            .split("")
+            .reduce((sum, digit) => sum + parseInt(digit), 0);
         }
         return num;
       };

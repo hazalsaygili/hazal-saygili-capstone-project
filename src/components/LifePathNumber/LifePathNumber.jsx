@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import lifePaths from '../../data/LifePaths.json';
-import './LifePathNumber.scss';
+import React, { useEffect, useState } from "react";
+import lifePaths from "../../data/LifePaths.json";
+import "./LifePathNumber.scss";
 
 const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
   const [lifePathNumber, setLifePathNumber] = useState(null);
@@ -10,7 +10,10 @@ const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
     const lifePathCalculator = (birthDay, birthMonth, birthYear) => {
       const reduceToSingleDigit = (num) => {
         while (num > 9 && ![11, 22, 33].includes(num)) {
-          num = num.toString().split('').reduce((acc, digit) => acc + parseInt(digit), 0);
+          num = num
+            .toString()
+            .split("")
+            .reduce((acc, digit) => acc + parseInt(digit), 0);
         }
         return num;
       };

@@ -24,7 +24,7 @@
     }
   }
 
-  @media (min-width: 768px) {
+  @include tablet {
     flex-direction: row;
 
     .learn-about-astrology {

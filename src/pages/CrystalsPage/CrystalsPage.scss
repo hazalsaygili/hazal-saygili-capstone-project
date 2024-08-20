@@ -4,12 +4,12 @@
 .crystals-page {
   display: flex;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 2rem 4rem;
   flex-direction: column;
 
   @include tablet {
     flex-direction: row;
-    align-items:first baseline;
+    align-items:flex-start;
   }
 
   &__sidebar {
@@ -17,7 +17,7 @@
     background-color: $space-blue;
     color: white;
     padding: 1.5rem 2.25rem;
-    box-shadow: 0 0 8px rgba($neon-pink, 0.5);
+    box-shadow: 0 0 1rem rgba($neon-pink, 0.5);
 
     @include tablet {
       width: 25%;
@@ -60,7 +60,7 @@
 
   &__main {
     width: 100%;
-    padding: 2rem;
+    padding: 0rem 2rem;
 
     @include tablet {
       width: 70%;
@@ -77,8 +77,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 4rem;
-      padding-top: 2rem;
+      padding: 2rem 4rem;
 
       &__details {
         p {

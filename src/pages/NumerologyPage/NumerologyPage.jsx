@@ -25,8 +25,8 @@ const NumerologyPage = () => {
   return (
     <section className="numerology-page">
       <div className="numerology-page__form-container">
-        <h1 className="numerology-page__title">Numerology Report</h1>
         <form onSubmit={handleFormSubmit} className="numerology-page__form">
+        <h1 className="numerology-page__title">Numerology Report</h1>
           <label>
             Full Name:
             <input

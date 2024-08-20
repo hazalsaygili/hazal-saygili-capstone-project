@@ -1,10 +1,10 @@
-@import '../../styles/__mixins';
-@import '../../styles/__variables';
+@import "../../styles/__mixins";
+@import "../../styles/__variables";
 
 .navbar {
   background-color: $space-blue;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,6 @@
   .nav-links {
     display: flex;
     gap: 1rem;
-    margin-right: 4rem;
     a {
       text-decoration: none;
       color: $neon-pink;
@@ -37,13 +36,12 @@
       position: relative;
       border-radius: 0.5rem;
 
-
       &.active {
         border-bottom: 0.3rem solid $neon-purple;
       }
 
       &:hover {
-        background-color: white ;
+        background-color: white;
         color: $neon-purple;
       }
     }

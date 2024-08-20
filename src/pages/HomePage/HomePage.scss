@@ -28,7 +28,7 @@
         color: $space-blue;
         padding: 2rem;
         border-radius: 1rem;
-        box-shadow: 0 0 1rem rgba($neon-pink, 0.4);
+        box-shadow: 0 0 1rem rgba($neon-pink, 0.5);
 
         h2 {
           color: $neon-pink;
@@ -47,7 +47,7 @@
       }
     }
 
-    @media (min-width: 768px) {
+    @include tablet {
       .hero-content {
         flex-direction: row;
         justify-content: center;
