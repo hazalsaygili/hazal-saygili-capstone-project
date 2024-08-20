@@ -65,16 +65,16 @@ h3 {
     text-align: center;
 
     &:hover {
-      box-shadow: 0 0 1rem rgba(193, 255, 49, 0.5);
+      box-shadow: 0 0 1rem rgba($neon-purple, 0.5);
     }
   }
 }
 
 .chakras__content {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem 4rem;
   @include tablet {
-    width: 63%;
+    width: 65%;
   }
 
   h2 {

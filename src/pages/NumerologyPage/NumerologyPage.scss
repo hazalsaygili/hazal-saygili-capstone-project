@@ -15,7 +15,7 @@
 
   @include tablet {
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   &__form-container {
@@ -99,7 +99,7 @@
   &__report {
     background-color: white;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     box-shadow: 0 4px 1rem rgba($neon-pink, 0.5);
   }
 
