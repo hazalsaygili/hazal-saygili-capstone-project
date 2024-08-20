@@ -1,5 +1,5 @@
-@import '../../styles/__mixins';
-@import '../../styles/__variables';
+@import "../../styles/__mixins";
+@import "../../styles/__variables";
 
 .crystals-page {
   display: flex;
@@ -9,7 +9,7 @@
 
   @include tablet {
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
   }
 
   &__sidebar {
@@ -99,6 +99,9 @@
           color: $space-blue;
         }
       }
+    }
+    .crystals-page__image {
+      box-shadow: 0 0 1rem rgba($neon-pink, 0.5);
     }
 
     .crystals-page__intro {
