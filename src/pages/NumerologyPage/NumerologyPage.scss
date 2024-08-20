@@ -20,16 +20,17 @@
 
   &__form-container {
     background-image: linear-gradient(
-        rgba(165, 70, 209, 0.5),
-        rgba(165, 70, 209, 0.5)
+        rgba(99, 17, 136, 0.5),
+        rgba(99, 17, 136, 0.5),
       ),
       url(../../assets/Backgrounds/numerology-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
     border-radius: 1rem;
     flex: 0 1 40%;
+
   }
 
   &__title {
@@ -88,7 +89,7 @@
 
   &__warning {
     align-self: center;
-    color: white;
+    color: $neon-pink;
     font-size: 1.2rem;
   }
 
@@ -100,7 +101,7 @@
     background-color: white;
     padding: 2rem;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 1rem rgba($neon-pink, 0.5);
+    box-shadow: 0 0 1rem rgba($neon-pink, 0.5);
   }
 
   &__tabs {
