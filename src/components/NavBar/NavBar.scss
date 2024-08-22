@@ -12,13 +12,30 @@
   top: 0;
   z-index: 1;
 
+  .logo--container {
+    width:50%;
+    display:flex;
+    gap: 1rem;
+    height: 100;
+  }
+
+  .crystalsilver_logo{
+    width:25%;
+    height:100%;
+    align-self: center;
+  }
+
+  .logo--span{
+    font-size: 1.25rem;
+    font-weight: 520;
+  }
   .logo {
-    font-size: 2rem;
+    font-size: 1.52rem;
     color: $neon-purple;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 520;
     transition: color 0.1s;
-
+    padding-top: 0.70rem;
     &:hover {
       color: $neon-pink;
     }
@@ -30,11 +47,11 @@
     a {
       text-decoration: none;
       color: $neon-pink;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       padding: 0.5rem;
       transition: background 0.3s, color 0.3s, border-bottom 0.3s;
       position: relative;
-      border-radius: 0.5rem;
+      border-radius: 0.25rem;
 
       &.active {
         border-bottom: 0.3rem solid $neon-purple;
