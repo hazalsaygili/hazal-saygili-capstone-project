@@ -1,54 +1,48 @@
 @import "../../styles/__mixins";
 @import "../../styles/__variables";
 
-.navbar {
+.footer {
   background-color: $space-blue;
   color: white;
   padding: 1rem 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   max-width: 100%;
-  top: 0;
+  bottom: 0;
   z-index: 1;
-  flex-direction: column;
-  @include tablet {
-    flex-direction: row;
-  }
 
   .logo--container {
-    width:50%;
-    display:flex;
+    width: 100%;
+    display: flex;
+    right:0;
     gap: 1rem;
-    height: 100;
-
+    height: 100%;
   }
 
-  .crystalsilver_logo{
-    width:25%;
-    height:100%;
+  .crystalsilver_logo {
+    width: 25%;
+    height: 100%;
     align-self: center;
   }
 
-  .logo--span{
-    font-size: 1.25rem;
-    font-weight: 520;
-  }
   .logo {
-    font-size: 1.52rem;
+    font-size: 1.55rem;
     color: $neon-purple;
     text-decoration: none;
     font-weight: 520;
     transition: color 0.1s;
     padding-top: 0.70rem;
+    
     &:hover {
       color: $neon-pink;
     }
   }
 
-  .nav-links {
+  .footer-links {
     display: flex;
     gap: 1rem;
+
     a {
       text-decoration: none;
       color: $neon-pink;

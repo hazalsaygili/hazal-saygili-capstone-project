@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/NavBar';
 import HomePage from './pages/HomePage/HomePage';
 import NumerologyPage from './pages/NumerologyPage/NumerologyPage';
 import ChakrasPage from './pages/ChakrasPage/ChakrasPage';
 import CrystalsPage from './pages/CrystalsPage/CrystalsPage';
 import AstrologyPage from './pages/AstrologyPage/AstrologyPage';
+// import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/crystals/:crystalName" element={<CrystalsPage />} />
           <Route path="/astrology" element={<AstrologyPage />} />
         </Routes>
+        {/* <Footer /> */}
       </div>
     </Router>
   );
