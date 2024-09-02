@@ -21,7 +21,7 @@ h3 {
 .chakras__hero {
   display: flex;
   flex-direction: column;
-  padding: 0 4rem;
+  padding: 1rem 4rem;
   gap: 2rem;
   align-items: center;
 
@@ -75,12 +75,10 @@ h3 {
 
 .chakras__content {
   width: 100%;
-  padding: 0.5rem 2rem;
+  padding: 0rem 2rem;
 
   li {
-    // list-style-type: none;
-    // margin:0;
-    padding: 1.25rem 0rem;
+    padding: 1rem 0rem;
   }
 
   @include tablet {
@@ -96,7 +94,7 @@ h3 {
     font-size: 1.25rem;
 
     h3 {
-      padding: 1.25rem 0rem;
+      padding: 1rem 0rem;
     }
   }
 
