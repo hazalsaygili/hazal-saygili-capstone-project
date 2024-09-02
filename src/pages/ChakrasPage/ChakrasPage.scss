@@ -3,7 +3,7 @@
 
 h3 {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .chakras__container {
@@ -23,9 +23,12 @@ h3 {
   flex-direction: column;
   padding: 0 4rem;
   gap: 2rem;
+  align-items: center;
 
   @include tablet {
     flex-direction: row;
+    align-items: flex-start;
+
   }
 }
 
@@ -146,7 +149,7 @@ h3 {
           width: 10rem;
           height: 12rem;
           border-radius: 50%;
-          border: 2px solid;
+          border: 0.25rem solid;
         }
 
         p {

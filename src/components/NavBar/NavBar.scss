@@ -11,6 +11,7 @@
   max-width: 100%;
   top: 0;
   z-index: 1;
+  gap: 1rem;
   flex-direction: column;
   @include tablet {
     flex-direction: row;
