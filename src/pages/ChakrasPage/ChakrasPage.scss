@@ -1,6 +1,5 @@
-@import '../../styles/__mixins';
-@import '../../styles/__variables';
-
+@import "../../styles/__mixins";
+@import "../../styles/__variables";
 
 h3 {
   font-size: 1.5rem;
@@ -22,9 +21,8 @@ h3 {
 .chakras__hero {
   display: flex;
   flex-direction: column;
-  padding: 2rem 4rem;
+  padding: 0 4rem;
   gap: 2rem;
-
 
   @include tablet {
     flex-direction: row;
@@ -35,7 +33,7 @@ h3 {
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
-  background-image: url('../../assets/Backgrounds/chakrabody.webp');
+  background-image: url("../../assets/Backgrounds/chakrabody.webp");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,6 +73,13 @@ h3 {
 .chakras__content {
   width: 100%;
   padding: 0.5rem 2rem;
+
+  li {
+    // list-style-type: none;
+    // margin:0;
+    padding: 1.25rem 0rem;
+  }
+
   @include tablet {
     width: 65%;
   }
@@ -86,6 +91,10 @@ h3 {
 
   .chakra__description {
     font-size: 1.25rem;
+
+    h3 {
+      padding: 1.25rem 0rem;
+    }
   }
 
   .chakra__crystals {
@@ -135,7 +144,7 @@ h3 {
 
         img {
           width: 10rem;
-          height:12rem;
+          height: 12rem;
           border-radius: 50%;
           border: 2px solid;
         }

@@ -63,7 +63,7 @@ const CrystalsPage = () => {
                   className = "crystals-page__image"
                   src={selectedCrystal.image}
                   alt={selectedCrystal.name}
-                  style={{ width: "48rem", height: "24rem", objectFit: 'fill', borderRadius: '0.5rem', marginBottom: '2rem'
+                  style={{width: "41rem", height: "24rem", objectFit: 'fill', borderRadius: '0.5rem', marginBottom: '2rem'
                   }}
                 />
               <div className="crystals-page__details">

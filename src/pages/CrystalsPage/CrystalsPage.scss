@@ -69,19 +69,27 @@
     .crystals-page__title {
       font-size: 2.5rem;
       color: $neon-pink;
-      padding-left: 4rem;
       margin-bottom: 0;
+
+      @include tablet {
+        padding: 0 4rem;
+
+      }
     }
 
     .crystals-page__content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem 4rem;
+      padding: 2rem 0rem;
+      @include tablet {
+        padding: 2rem 4rem;
+      }
+
 
       &__details {
         p {
-          margin-bottom: 1rem;
+          margin-bottom: 1.25rem;
         }
       }
 
