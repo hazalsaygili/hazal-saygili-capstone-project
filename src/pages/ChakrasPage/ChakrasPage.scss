@@ -57,7 +57,7 @@ h3 {
 
   .chakra__button {
     display: block;
-    width: 2.255rem;
+    width: 2.25rem;
     height: 2.25rem;
     margin: 1rem;
     border-radius: 50%;
@@ -78,7 +78,7 @@ h3 {
   padding: 0rem 2rem;
 
   li {
-    padding: 1rem 0rem;
+    padding: 1rem 0rem; 
   }
 
   @include tablet {
@@ -87,7 +87,7 @@ h3 {
 
   h2 {
     font-size: 2.5rem;
-    margin-top: 0;
+    margin-top: 0.5rem;
   }
 
   .chakra__description {
@@ -107,7 +107,7 @@ h3 {
     .chakra__crystal {
       margin: 0.5rem 0;
       padding: 0.5rem 1rem;
-      border: 2px solid;
+      border: 0.125rem solid;
       border-radius: 0.5rem;
       font-size: 1.2rem;
       text-align: center;

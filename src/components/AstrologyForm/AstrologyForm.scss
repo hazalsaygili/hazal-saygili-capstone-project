@@ -45,12 +45,12 @@
 
     button {
       @include button-style($neon-pink, white, $neon-pink);
+      font-weight: 500;
     }
 
     .warning-message {
       color: $neon-pink;
-      font-size: 1rem;
-      margin-top: 1rem;
+      font-size: 1.25rem;
     }
   }
 }

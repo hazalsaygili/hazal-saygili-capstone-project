@@ -3,7 +3,7 @@
     "name": "Crown Chakra",
     "indianName": "Sahasrara",
     "description": "The Crown Chakra represents our ability to be fully connected spiritually. It is the center of enlightenment and spiritual connection to our higher selves.",
-    "color": "#8b00ff",
+    "color": "#7411c4",
     "crystals": ["Selenite", "Clear Quartz", "Amethyst", "Diamond"],
     "mudras": [
       {"name": "Sahasrara Mudra", "url": "/mudras/sahasrara_mudra.png"},
@@ -15,7 +15,7 @@
     "name": "Third Eye Chakra",
     "indianName": "Ajna",
     "description": "The Third Eye Chakra is the center of our intuition and foresight. It governs our perception, imagination, and inner vision.",
-    "color": "#3705b5",
+    "color": "#4411c4",
     "crystals": ["Amethyst", "Labradorite", "Sodalite", "Lepidolite"],
     "mudras": [
       {"name": "Ajna Chackra Mudra", "url": "/mudras/ajna_chakra_mudra.png"},

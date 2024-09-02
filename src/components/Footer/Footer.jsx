@@ -11,9 +11,9 @@ const Footer = () => {
           alt="crystalsilverlogo"
           className="crystalsilver_logo"
         />
-        <NavLink to="/" className="logo">
+        {/* <NavLink to="/" className="logo">
           COSMO APP
-        </NavLink>
+        </NavLink> */}
       </div>
       {/* <div className="footer-links">
         <NavLink to="/about" activeClassName="active">

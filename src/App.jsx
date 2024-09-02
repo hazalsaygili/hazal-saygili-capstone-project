@@ -6,7 +6,7 @@ import NumerologyPage from './pages/NumerologyPage/NumerologyPage';
 import ChakrasPage from './pages/ChakrasPage/ChakrasPage';
 import CrystalsPage from './pages/CrystalsPage/CrystalsPage';
 import AstrologyPage from './pages/AstrologyPage/AstrologyPage';
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/crystals/:crystalName" element={<CrystalsPage />} />
           <Route path="/astrology" element={<AstrologyPage />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
