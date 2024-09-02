@@ -9,7 +9,7 @@ const NavBar = () => {
       <img
           src="/logo/crystalsilverlogo.png"
           alt="crystalsilverlogo"
-          className="crystalsilver_logo"
+          className="crystalsilver--logo"
         />
       <NavLink to="/" className="logo">
           COSMO APP 

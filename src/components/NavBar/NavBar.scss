@@ -17,14 +17,20 @@
   }
 
   .logo--container {
-    width:50%;
+    width:100%;
     display:flex;
-    gap: 1rem;
+    gap: 2rem;
     height: 100;
+    justify-content: center;
+
+    @include tablet {
+      width:50%;
+      justify-content: flex-start;
+    }
 
   }
 
-  .crystalsilver_logo{
+  .crystalsilver--logo{
     width:25%;
     height:100%;
     align-self: center;

@@ -1,14 +1,14 @@
 import React from 'react';
-import './ZodiacReport.scss';
+import './AstrologyReport.scss';
 
-const ZodiacReport = ({ zodiacSign }) => {
+const AstrologyReport = ({ zodiacSign }) => {
   if (!zodiacSign) {
     return null;
   }
 
   return (
-    <div className="zodiac-report">
-      <h2 className="subtitle">Your Zodiac Sign: {zodiacSign.name}</h2>
+    <div className="astrology-report">
+      <h2 className="subtitle">Your Zodiac Sun Sign: {zodiacSign.name}</h2>
       <p><strong>Element:</strong> {zodiacSign.element}</p>
       <p><strong>Ruling Planet:</strong> {zodiacSign.rulingplanet}</p>
       <p><strong>Traits:</strong> {zodiacSign.traits}</p>
@@ -17,4 +17,4 @@ const ZodiacReport = ({ zodiacSign }) => {
   );
 };
 
-export default ZodiacReport;
+export default AstrologyReport;

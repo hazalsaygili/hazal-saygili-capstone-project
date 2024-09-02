@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import AstrologyForm from '../../components/AstrologyForm/AstrologyForm';
-import ZodiacReport from '../../components/ZodiacReport/ZodiacReport';
+import ZodiacReport from '../../components/AstrologyReport/AstrologyReport';
 import astrologyData from '../../data/Astrology.json';
 import './AstrologyPage.scss';
 

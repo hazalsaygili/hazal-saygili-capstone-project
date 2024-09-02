@@ -9,20 +9,23 @@
       rgba(165, 70, 209, 0.3),
       rgba(165, 70, 209, 0.3)
     ),
-    url(../../assets/Backgrounds/homepage-background.jpg);
+    url(../../assets/Backgrounds/background_cosmic.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 2rem;
+    padding:2rem;
     text-align: center;
-    min-height: 85vh;
+    min-height: 75vh;
+    align-self: center;
 
     .hero-content {
       display: flex;
       flex-direction: column;
       gap: 2rem;
       padding: 4rem;
+
+
       .hero-item {
         background-color: rgba(255, 255, 255, 0.8);
         color: $space-blue;
