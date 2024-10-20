@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "Leader",
+    "image": "",
+    "description": "Life Path Number 1 represents the Leader. Individuals with this number are independent, ambitious, and driven to achieve their goals.",
+    "strengths": "Independence: You possess a strong sense of independence and are capable of making decisions on your own. Your self-reliance is a key factor in your success.\nLeadership: You have a natural ability to lead and inspire others. Your confidence and determination make you a powerful influence.\nInitiative: You are proactive and take the initiative to pursue your goals. Your drive and ambition propel you forward.",
+    "challenges": "Self-Centeredness: Your focus on your own goals may lead to self-centeredness or a lack of consideration for others. Developing empathy and collaboration skills is essential for building strong relationships.\nImpatience: Your drive for success may lead to impatience or frustration when things don't go as planned. Cultivating patience and resilience can help you navigate challenges.\nStubbornness: Your determination may sometimes manifest as stubbornness or inflexibility. Learning to be open to others' perspectives and adapting to change is important for growth."
+  },
+  {
+    "id": "2",
+    "title": "Peacemaker",
+    "image": "",
+    "description": "Life Path Number 2 represents the Peacemaker. Individuals with this number are diplomatic, sensitive, and focused on creating harmony in their relationships.",
+    "strengths": "Diplomacy: You have a natural talent for mediation and resolving conflicts. Your ability to see both sides of an issue makes you a valuable peacemaker.\nSensitivity: Your heightened sensitivity allows you to connect with others on a deep emotional level. Your empathy and understanding strengthen your relationships.\nCooperation: You are cooperative and work well in team settings. Your willingness to collaborate and support others contributes to a harmonious environment.",
+    "challenges": "Indecisiveness: Your desire to please others may lead to indecisiveness or difficulty making decisions. Developing confidence in your own judgment is key to overcoming this challenge.\nOver-Sensitivity: Your sensitivity may sometimes lead to overreacting to criticism or perceived slights. Building emotional resilience and learning to manage your reactions is important for maintaining balance.\nPeople-Pleasing: Your focus on harmony may lead to people-pleasing behavior or neglecting your own needs. Setting boundaries and prioritizing self-care is essential for maintaining your well-being."
+  },
+  {
+    "id": "3",
+    "title": "Socializer",
+    "image": "",
+    "description": "Life Path Number 3 represents the Socializer. Individuals with this number are expressive, creative, and have a talent for communication.",
+    "strengths": "Communication: You have a gift for expressing yourself and connecting with others. Your ability to articulate your thoughts and feelings makes you a powerful communicator.\nCreativity: You are creative and have a strong artistic or imaginative side. Your creativity is a source of joy and inspiration for yourself and others.\nOptimism: You have a naturally positive outlook on life. Your optimism and enthusiasm uplift those around you and help you navigate challenges.",
+    "challenges": "Superficiality: Your focus on socializing and having fun may lead to superficiality or a lack of depth in your relationships. Cultivating deeper connections and meaningful conversations is important for personal growth.\nDistraction: Your creative mind may sometimes lead to distraction or difficulty focusing on one task. Developing discipline and time management skills can help you stay on track.\nSensitivity to Criticism: Your expressive nature may make you sensitive to criticism or rejection. Building resilience and learning to take feedback constructively is key to overcoming this challenge."
+  },
+  {
+    "id": "4",
+    "title": "Builder",
+    "image": "",
+    "description": "Life Path Number 4 represents the Builder. Individuals with this number are practical, disciplined, and focused on creating stability and structure in their lives.",
+    "strengths": "Practicality: You have a strong sense of practicality and are skilled at creating structure and order. Your ability to organize and plan is a valuable asset.\nDiscipline: You are disciplined and hardworking. Your commitment to your goals and willingness to put in the effort ensures your success.\nReliability: You are dependable and can be counted on to follow through on your commitments. Your reliability builds trust and respect in your relationships.",
+    "challenges": "Rigidity: Your focus on structure and order may lead to rigidity or resistance to change. Learning to be flexible and open to new ideas is important for growth.\nWorkaholism: Your disciplined nature may lead to workaholism or an excessive focus on productivity. Balancing work with rest and relaxation is essential for maintaining well-being.\nPessimism: Your practical outlook may sometimes lead to pessimism or a focus on potential problems. Cultivating optimism and a positive mindset can help you overcome challenges."
+  },
+  {
+    "id": "5",
+    "title": "Free Spirit",
+    "image": "",
+    "description": "Life Path Number 5 represents the Free Spirit. Individuals with this number are adventurous, adaptable, and have a strong desire for freedom and variety in life.",
+    "strengths": "Adaptability: You are highly adaptable and able to thrive in changing environments. Your ability to embrace change and new experiences is a key strength.\nCuriosity: You have a strong sense of curiosity and a desire to explore the world. Your inquisitive nature drives you to seek out new knowledge and experiences.\nFreedom: You value your freedom and independence. Your desire for autonomy and self-expression guides your decisions and actions.",
+    "challenges": "Restlessness: Your desire for variety and change may lead to restlessness or difficulty committing to one path. Finding balance and focusing on long-term goals can help you achieve lasting success.\nImpulsiveness: Your adventurous nature may lead to impulsive decisions or actions. Developing patience and thinking things through before acting is important for avoiding unnecessary risks.\nLack of Focus: Your love for freedom and variety may sometimes result in a lack of focus or difficulty sticking to one task. Cultivating discipline and setting clear goals can help you stay on track."
+  },
+  {
+    "id": "6",
+    "title": "Nurturer",
+    "image": "",
+    "description": "Life Path Number 6 represents the Nurturer. Individuals with this number are compassionate, responsible, and dedicated to caring for others.",
+    "strengths": "Compassion: You have a deep sense of compassion and a strong desire to care for others. Your empathy and kindness make you a natural nurturer.\nResponsibility: You take your responsibilities seriously and are committed to fulfilling your obligations. Your sense of duty and reliability is a key strength.\nHarmony: You have a talent for creating peaceful and balanced environments. Your ability to mediate conflicts and promote understanding strengthens your relationships.\nService: Your desire to serve others and contribute to the greater good drives you to make a positive impact in your community and beyond.",
+    "challenges": "Self-Sacrifice: Your focus on others' needs can sometimes lead to self-neglect. Ensuring that you prioritize your own well-being is essential for maintaining balance.\nOverprotectiveness: Your desire to care for others may lead to overprotectiveness or controlling behavior. Allowing others to take responsibility for their own lives is important for their growth.\nGuilt: You may experience guilt when you are unable to meet everyone's expectations. Recognizing that you cannot please everyone and setting realistic boundaries can help alleviate this challenge."
+  },
+  {
+    "id": "7",
+    "title": "The Intuitive",
+    "image": "",
+    "description": "Life Path Number 7 represents the Intuitive. Individuals with this number are introspective, analytical, and deeply connected to their inner wisdom.",
+    "strengths": "Intuition: You have a strong sense of intuition and are deeply connected to your inner wisdom. Your ability to trust your instincts guides you in making decisions.\nAnalytical Thinking: You possess strong analytical skills and a keen intellect. Your ability to analyze situations and think critically is a valuable asset.\nSpirituality: You have a deep connection to your spiritual side and are often drawn to exploring the mysteries of life. Your spiritual awareness guides you in seeking truth and meaning.",
+    "challenges": "Isolation: Your introspective nature may lead to feelings of isolation or detachment from others. Making an effort to connect with others and share your insights can help you build meaningful relationships.\nPerfectionism: Your analytical mind may lead to perfectionism or overthinking. Learning to embrace imperfection and trust in the process is important for your growth.\nSkepticism: Your focus on analysis and logic may lead to skepticism or a lack of trust in others. Balancing your analytical thinking with openness and faith can help you build trust and connections."
+  },
+  {
+    "id": "8",
+    "title": "Power Player",
+    "image": "",
+    "description": "Life Path Number 8 represents the Power Player. Individuals with this number are ambitious, determined, and focused on achieving success and financial abundance.",
+    "strengths": "Ambition: You have a strong sense of ambition and are driven to achieve your goals. Your determination and focus are key factors in your success.\nLeadership: You possess natural leadership abilities and are capable of taking charge in any situation. Your confidence and authority inspire others to follow your lead.\nFinancial Acumen: You have a talent for managing finances and building wealth. Your understanding of money and resources allows you to create financial stability and abundance.",
+    "challenges": "Work-Life Balance: Your focus on success and ambition may lead to an imbalance between work and personal life. Finding ways to balance your career with personal relationships and self-care is essential for long-term fulfillment.\nPower Struggles: Your strong will and desire for control may lead to power struggles or conflicts with others. Learning to collaborate and share power is important for building harmonious relationships.\nMaterialism: Your focus on financial success may lead to materialism or a reliance on external validation. Cultivating a sense of inner worth and focusing on your true values is important for lasting happiness."
+  },
+  {
+    "id": "9",
+    "title": "Humanitarian",
+    "image": "",
+    "description": "Life Path Number 9 represents the Humanitarian. Individuals with this number are compassionate, selfless, and dedicated to making a positive impact on the world.",
+    "strengths": "Compassion: You have a deep sense of compassion and a strong desire to help others. Your empathy and understanding make you a natural humanitarian.\nAltruism: You are selfless and dedicated to serving the greater good. Your commitment to making a positive impact on the world drives your actions.\nIdealism: You have a strong sense of idealism and believe in the possibility of creating a better world. Your vision and determination inspire others to join you in your efforts.",
+    "challenges": "Overwhelming Emotions: Your deep compassion and empathy may lead to overwhelming emotions or burnout. Learning to manage your emotions and set healthy boundaries is essential for maintaining balance.\nMartyrdom: Your selflessness may lead to martyrdom or neglecting your own needs. Recognizing the importance of self-care and setting boundaries is important for your well-being.\nIdealism: Your idealism may sometimes lead to disappointment or frustration when reality does not align with your vision. Cultivating patience and accepting imperfections can help you navigate challenges."
+  },
+  {
+    "id": "11",
+    "title": "Healer",
+    "image": "",
+    "description": "Life Path Number 11 represents the Healer. Individuals with this number are intuitive, empathetic, and possess a deep sense of spiritual awareness.",
+    "strengths": "Intuition: You have a heightened sense of intuition and are deeply connected to your inner self. Your ability to understand others' emotions and needs makes you a natural healer.\nEmpathy: You possess a deep sense of empathy and are able to connect with others on a profound level. Your compassion and understanding are valuable assets in your relationships.\nSpiritual Awareness: You have a strong connection to your spiritual side and are often drawn to exploring the deeper meaning of life. Your spiritual insights guide you in helping others on their journeys.",
+    "challenges": "Emotional Overwhelm: Your heightened sensitivity may lead to emotional overwhelm or difficulty managing your emotions. Learning to set boundaries and practice self-care is essential for maintaining balance.\nSelf-Doubt: Despite your intuitive abilities, you may experience self-doubt or fear of failure. Trusting in your intuition and recognizing your strengths can help you overcome these challenges.\nAvoidance of Conflict: Your desire for harmony may lead to avoidance of conflict or difficulty addressing challenging situations. Developing assertiveness and embracing difficult conversations is important for personal growth."
+  },
+  {
+    "id": "22",
+    "title": "Master Builder",
+    "image": "",
+    "description": "Life Path Number 22 represents the Master Builder. Individuals with this number are visionary, practical, and focused on turning their dreams into reality.",
+    "strengths": "Visionary Thinking: You have a strong ability to see the bigger picture and envision possibilities for the future. Your visionary thinking guides you in creating meaningful and impactful projects.\nPracticality: You possess a practical mindset and are skilled at bringing your ideas to life. Your ability to balance vision with practicality is a key strength.\nLeadership: You have natural leadership abilities and are capable of guiding others towards a shared goal. Your confidence and determination inspire others to follow your lead.",
+    "challenges": "Stress Management: Your drive to achieve your vision may lead to stress or burnout. Prioritizing stress management and seeking support when needed is crucial for maintaining balance.\nSelf-Doubt: Despite your abilities, you may experience self-doubt or fear of failure. Recognizing your strengths and trusting in your vision can help you overcome these challenges.\nOvercommitment: Your drive to achieve your goals may lead to overcommitment or taking on too much at once. Setting realistic boundaries and prioritizing your efforts can help you maintain focus and achieve success."
+  },
+  {
+    "id": "33",
+    "title": "Master Teacher",
+    "image": "",
+    "description": "Life Path Number 33 represents the Master Teacher. Individuals with this number are compassionate, selfless, and dedicated to uplifting others.",
+    "strengths": "Compassion: You have a deep sense of compassion and empathy for others. Your ability to understand and connect with people on a profound level makes you a natural healer and guide.\nTeaching: You have a talent for teaching and guiding others on their spiritual journeys. Your wisdom and insights are valuable resources for those seeking growth and enlightenment.\nSelflessness: You are willing to put others' needs before your own in service of a higher purpose. Your selflessness is a testament to your commitment to uplifting others.\nSpiritual Awareness: You possess a heightened sense of spiritual awareness and are deeply connected to your inner self. Your spiritual insights guide you in making decisions that align with your higher purpose.",
+    "challenges": "Self-Neglect: Your focus on others' needs may lead to self-neglect or burnout. Ensuring that you prioritize your own well-being is essential for maintaining balance and effectiveness.\nPerfectionism: Your desire to fulfill your spiritual purpose may lead to perfectionism or self-criticism. Embracing your journey and recognizing that growth is a process can help alleviate this challenge.\nOverwhelm: The weight of your responsibilities and sense of purpose may lead to feelings of overwhelm. Finding ways to manage stress and seeking support when needed is important for your well-being."
+  }
+]

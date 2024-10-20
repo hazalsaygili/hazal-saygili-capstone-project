@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import lifePaths from "../../data/LifePaths.json";
+import lifePaths from "../../data/LifePathss.json";
 import "./LifePathNumber.scss";
 
 const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
@@ -27,6 +27,7 @@ const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
         third_year_digit * 10 -
         second_year_digit * 100 -
         first_year_digit * 1000;
+      let birthyear_sum = 0;
       let lifePathNumber = 0;
   
       if (birthDay / 10 >= 1) {
@@ -42,11 +43,17 @@ const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
       } else {
         first_month_digit = birthMonth;
       }
-  
-      console.log(first_day_digit);
-      console.log(second_day_digit);
-      console.log(first_month_digit);
-      console.log(second_month_digit);
+
+      if (birthyear_sum / 10 >= 1) {
+        first_yearsum_digit = Math.trunc(birthMonth / 10);
+        second_yearsum_digit = birthMonth % 10;
+      } else {
+        first_yearsum_digit = birthyear_sum;
+      }
+      // console.log(first_day_digit);
+      // console.log(second_day_digit);
+      // console.log(first_month_digit);
+      // console.log(second_month_digit);
   
       let birthdaySum =
         first_day_digit +
@@ -115,7 +122,9 @@ const LifePathNumber = ({ birthDay, birthMonth, birthYear }) => {
     <div className="numerology-section">
       <h2>Life Path Number: {lifePathNumber}</h2>
       <h3>{lifePathObj.title}</h3>
-      <p>{lifePathObj.description}</p>
+      <p>Description: {lifePathObj.description}</p>
+      <p>Strengths: {lifePathObj.strengths}</p>
+      <p>Challenges: {lifePathObj.challenges}</p>
     </div>
   );
 };
